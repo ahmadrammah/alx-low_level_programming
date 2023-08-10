@@ -1,12 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - 4-puts.c
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	/**
-	 * return - return 0 means its working
-	 */
 	return (0);
 }
