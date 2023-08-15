@@ -2,7 +2,7 @@
 
 /**
  * main - finds and prints the sum of the even-valued
- * terms that dont exceed 4000000 followed by a new line 
+ * terms that dont exceed 4000000 followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
