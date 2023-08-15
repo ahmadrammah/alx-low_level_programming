@@ -9,10 +9,11 @@
 int main(void)
 {
 	unsigned long num1 = 1, num2 = 2;
+	int count;
 
 	printf("%lu, %lu", num1, num2);
 
-		for (int count = 2; count < 50; count++)
+		for (count = 2; count < 50; count++)
 		{
 			unsigned long sum = num1 + num2;
 			printf(", %lu", sum);
