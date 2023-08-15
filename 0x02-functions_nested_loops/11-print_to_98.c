@@ -14,15 +14,15 @@ void print_to_98(int n)
 		{
 			if (i != 98)
 			{
-				putchar ((i / 10) + '0');
-				putchar((i % 10) + '0');
-				putchar(',');
-				putchar(' ');
+				_putchar ((i / 10) + '0');
+				_putchar((i % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
 			else if (i == 98)
 			{
-				putchar ('9');
-				putchar ('8');
+				_putchar ('9');
+				_putchar ('8');
 			}
 		}
 	}
@@ -32,24 +32,25 @@ void print_to_98(int n)
 		{
 			if (j >= 100)
 			{
-				putchar ((j / 100) + '0');
-				putchar(((j / 10) % 10) + '0');
-				putchar((j % 10) + '0');
-				putchar(',');
-				putchar(' ');
+				_putchar ((j / 100) + '0');
+				_putchar(((j / 10) % 10) + '0');
+				_putchar((j % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
 			else if (j == 99)
 			{
-				putchar ('9');
-				putchar ('9');
-				putchar(',');
-				putchar(' ');
+				_putchar ('9');
+				_putchar ('9');
+				_putchar(',');
+				_putchar(' ');
 			}
 			else if (j == 98)
 			{
-				putchar ('9');
-				putchar ('8');
+				_putchar ('9');
+				_putchar ('8');
 			}
 		}
 	}
+	_putchar ('\n');
 }
