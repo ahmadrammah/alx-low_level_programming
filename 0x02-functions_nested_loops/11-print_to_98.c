@@ -42,9 +42,15 @@ void print_to_98(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
-			else if ((i != 98) && (i > 0))
+			else if (i > 0)
 			{
-				_putchar ((i / 10) + '0');
+				_putchar((i % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+			else if ((i != 98) && (i >= 10))
+			{
+				_putchar((i / 10) + '0');
 				_putchar((i % 10) + '0');
 				_putchar(',');
 				_putchar(' ');
