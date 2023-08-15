@@ -16,6 +16,7 @@ int main(void)
 		for (count = 2; count < 50; count++)
 		{
 			unsigned long sum = num1 + num2;
+
 			printf(", %lu", sum);
 
 			num1 = num2;
