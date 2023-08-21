@@ -22,9 +22,9 @@ int main(void)
 		p[i] = rand() % 78;
 		sum = sum + (p[i] + '0');
 		putchar(p[i] + '0');
-		if ((3221 - sum) - '0' < 78)
+		if ((2772 - sum) - '0' < 78)
 		{
-			x = 3221 - sum - '0';
+			x = 2772 - sum - '0';
 			sum = sum + x;
 			putchar(x + '0');
 			break;
