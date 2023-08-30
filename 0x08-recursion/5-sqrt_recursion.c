@@ -7,7 +7,7 @@
  * Return: the resulting square root
  */
 
-int sqrt_real_recursion(int n, int x);
+int sqrt_real_recursion(int n, int x)
 {
 	if (x * x > n)
 		return (-1);
