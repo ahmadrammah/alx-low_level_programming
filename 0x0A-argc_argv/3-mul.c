@@ -50,10 +50,9 @@ int main(int argc, char *argv[])
 	}
 	x = _atoi(argv[1]);
 	y = _atoi(argv[2]);
-	ans = num1 * num2;
+	ans = x * y;
 
 	printf("%d\n", ans);
 
 	return (0);
 }
-
