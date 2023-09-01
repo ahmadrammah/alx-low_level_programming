@@ -4,8 +4,7 @@
 #include <string.h>
 /**
  * numchecker - check - string there are digit
- * @str: array str
- *
+ * @s: array s
  * Return: Always 0 (Success)
  */
 int numchecker(char *s)
