@@ -8,7 +8,7 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *sep = "", *s;
+	char *sep = "", *q;
 	va_list x;
 
 	va_start(x, format);
@@ -29,10 +29,10 @@ void print_all(const char * const format, ...)
 					printf("%s%f", sep, va_arg(x, double));
 					break;
 				case 's':
-					s = va_arg(x, char *);
-					if (!s)
-						s = "(nil)";
-					printf("%s%s", sep, s);
+					q = va_arg(x, char *);
+					if (!q)
+						q = "(nil)";
+					printf("%s%s", sep, q);
 					break;
 				default:
 					i++;
